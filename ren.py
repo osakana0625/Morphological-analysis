@@ -12,5 +12,5 @@ t = Tokenizer()
 tokens = t.tokenize(string)
 #形態素形跡実行・メソッドに対象の文字列を渡す？
  
-for token in tokens:
+for token in tokens:#単語の取り出し
     print(token)
